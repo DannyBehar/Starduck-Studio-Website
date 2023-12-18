@@ -1,9 +1,9 @@
 # Site settings
-title: Freelancer
+title: Starduck Studio
 email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+url: https://starduck.studio
+description: "Mobile app studio located in Baltimore, MD. iOS, iPadOS, and future platforms."
+keywords: "mobile, iOS, iPadOS, Apple Platforms, Swift, indie, apps, app studio"
 skills: Build something wonderful.
 meta_author: LastName FirstName
 
