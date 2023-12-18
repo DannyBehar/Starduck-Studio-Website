@@ -16,23 +16,14 @@ p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-    color: #{{ site.color.primary }};
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-family: Finale Copyist Text,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -62,28 +53,8 @@ hr.star-light {
     border-color: #fff;
 }
 
-hr.star-light:after {
-    color: #fff;
-    background-color: #{{ site.color.primary }};
-}
-
-hr.star-primary {
-    border-color: #{{ site.color.secondary }};
-}
-
-hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
-}
-
 .img-centered {
     margin: 0 auto;
-}
-
-header {
-    text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -98,10 +69,10 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-family: Finale Copyist Text,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
@@ -150,7 +121,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Finale Copyist Text,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -180,11 +151,6 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -207,30 +173,8 @@ section.success {
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -288,15 +232,6 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
-}
-
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -346,33 +281,19 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.text }};
 }
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
-footer {
-    color: #fff;
-}
-
 footer h3 {
     margin-bottom: 30px;
 }
 
-footer .footer-above {
-    padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
-}
-
 footer .footer-col {
     margin-bottom: 50px;
-}
-
-footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
@@ -470,10 +391,6 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
-
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
